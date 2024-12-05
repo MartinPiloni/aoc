@@ -1,5 +1,6 @@
 def is_ordered(pages, graph):
-    vis = {} for page in pages:
+    vis = {}
+    for page in pages:
         vis[page] = True
         if page not in graph:
             continue
