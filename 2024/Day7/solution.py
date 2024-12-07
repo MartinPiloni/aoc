@@ -25,7 +25,7 @@ with open("day7.txt") as file:
                 ans1 += int(result)
                 break
 
-        # Part 1
+        # Part 2
         # Bitmask base 3 to generate all posible combinations of signs
         for mask in range(3 ** (len(nums) - 1)):
             operators = []
