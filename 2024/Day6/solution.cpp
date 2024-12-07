@@ -69,11 +69,9 @@ int main() {
     traverse(start);
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
-            for (int k = 0; k < 4; k++) {
-                if (vis[i][j]) {
-                    ans1++;
-                    break;
-                }
+            if (vis[i][j]) {
+                ans1++;
+                break;
             }
         }
     }
