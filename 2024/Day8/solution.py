@@ -12,9 +12,6 @@ def valid(r, c):
 
 
 def count_antinodes(r, c, count, count2):
-    if grid[r][c] == ".":
-        return
-
     for i in range(r, n):
         for j in range(m):
             if i == r and j <= c:
