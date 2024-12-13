@@ -42,7 +42,6 @@ for idx, c in enumerate(fragmented_disk):
 # Part 2 -- horrible solution
 fragmented_disk2 = disk.copy()
 for i in range(len(freq2) - 1, 0, -1):
-    print(i)
     cnt = 0
     for j in range(len(fragmented_disk2)):
         if fragmented_disk2[j] == i:
